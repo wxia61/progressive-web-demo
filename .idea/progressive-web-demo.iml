@@ -17,5 +17,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="holds-audit-trail-report" />
+    <orderEntry type="module" module-name="starrez-housing-management" />
+    <orderEntry type="module" module-name="StudentAffairs" />
   </component>
 </module>

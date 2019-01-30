@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file:///Applications/XAMPP/xamppfiles/htdocs/StudentAffairs/.idea/StudentAffairs.iml" filepath="/Applications/XAMPP/xamppfiles/htdocs/StudentAffairs/.idea/StudentAffairs.iml" />
       <module fileurl="file:///Applications/XAMPP/xamppfiles/htdocs/ws/holds-audit-trail-report/.idea/holds-audit-trail-report.iml" filepath="/Applications/XAMPP/xamppfiles/htdocs/ws/holds-audit-trail-report/.idea/holds-audit-trail-report.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/progressive-web-demo.iml" filepath="$PROJECT_DIR$/.idea/progressive-web-demo.iml" />
+      <module fileurl="file:///Applications/XAMPP/xamppfiles/htdocs/starrez-housing-management/.idea/starrez-housing-management.iml" filepath="/Applications/XAMPP/xamppfiles/htdocs/starrez-housing-management/.idea/starrez-housing-management.iml" />
     </modules>
   </component>
 </project>

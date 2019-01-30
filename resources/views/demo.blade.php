@@ -13,6 +13,17 @@
 </head>
 
 <body>
+<table style="width:100%">
+    @foreach($records as $record)
+        <tr>
+            <th>{{$record->hold_code}}</th>
+            <th>{{$record->hold_from_date_new}}</th>
+            <th>{{$record->hold_to_date_new}}</th>
+        </tr>
+    @endforeach
+</table>
+
+
 <script src="js/scripts.js"></script>
 </body>
 </html>

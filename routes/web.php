@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('demo');
-});
+Route::get('/', "DemoController@index")->middleware('cas.auth');

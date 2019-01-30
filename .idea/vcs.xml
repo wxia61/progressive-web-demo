@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="/Applications/XAMPP/xamppfiles/htdocs/StudentAffairs" vcs="Git" />
+    <mapping directory="/Applications/XAMPP/xamppfiles/htdocs/laravel-courselist" vcs="Git" />
+    <mapping directory="/Applications/XAMPP/xamppfiles/htdocs/starrez-housing-management" vcs="Git" />
   </component>
 </project>
