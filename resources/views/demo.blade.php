@@ -4,21 +4,22 @@
 <head>
     <meta charset="utf-8">
 
-    <title>The HTML5 Herald</title>
+    <title>Progressive web demo</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
 
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
 </head>
 
 <body>
 <table style="width:100%">
+    {{cas()->getCurrentUser()}}
     @foreach($records as $record)
         <tr>
             <th>{{$record->hold_code}}</th>
-            <th>{{$record->hold_from_date_new}}</th>
-            <th>{{$record->hold_to_date_new}}</th>
+            <th>{{$record->hold_from_date_old}}</th>
+            <th>{{$record->hold_to_date_old}}</th>
         </tr>
     @endforeach
 </table>
